@@ -1,3 +1,4 @@
+{{ config(materialized='view') }}
 WITH airports_reorder AS (
 SELECT faa
         ,name
