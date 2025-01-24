@@ -1,3 +1,4 @@
+{{config(materialized='table')}}
 WITH hourly_raw AS (
     SELECT
             airport_code,
