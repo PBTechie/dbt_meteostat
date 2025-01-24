@@ -1,4 +1,4 @@
-{{config(materialized='table'}}
+{{config(materialized='table')}}
 WITH daily_raw AS (
     SELECT
             airport_code,
