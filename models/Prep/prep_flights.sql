@@ -1,4 +1,4 @@
-{{ config(materialized='view') }}
+{{config(materialized='table')}}
 WITH flights_january AS (
 SELECT * 
 FROM {{ref('staging_flights_january')}}
