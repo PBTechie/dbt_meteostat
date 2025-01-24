@@ -1,3 +1,4 @@
+{{ config(materialized='view') }}
 WITH airports_regions_join AS (
     SELECT * 
     FROM {{source('staging_data', 'airports')}}
