@@ -10,6 +10,6 @@ sources:
 - name: staging_data
   schema: public
   tables:
-    - name: flightsgit
+    - name: flights
     - name: airports
     - name: regions
