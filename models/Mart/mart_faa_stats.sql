@@ -1,5 +1,3 @@
-SELECT * FROM prep_flights; 
-
 With departures AS (
 	SELECT origin AS faa,
 		COUNT(DISTINCT dest) AS nunique_to,
