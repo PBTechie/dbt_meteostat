@@ -1,3 +1,4 @@
+{{config(materialized='table')}}
 With departures AS (
 	SELECT origin AS faa,
 		COUNT(DISTINCT dest) AS nunique_to,
